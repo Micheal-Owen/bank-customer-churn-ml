@@ -22,3 +22,5 @@ git clone [https://github.com/YOUR_USERNAME/bank-customer-churn-ml.git](https://
 cd bank-customer-churn-ml
 pip install -r requirements.txt
 streamlit run app.py
+
+Access Online Via https://bankcustomerchurnml123.streamlit.app/
