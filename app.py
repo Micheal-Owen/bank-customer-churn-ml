@@ -47,3 +47,4 @@ if submitted:
     for d in result["top_drivers"]:
         icon = "🔴" if d["impact"] > 0 else "🟢"
         st.write(f"{icon} **{d['feature']}** — `{d['effect']}` (SHAP impact: `{d['impact']:+}`)")
+    st.info(f"💡 **Recommended Action:** {result['recommended_action']}")
